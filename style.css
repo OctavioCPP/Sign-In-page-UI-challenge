@@ -1,0 +1,395 @@
+body{
+    height: 560px;
+    width: 1120px;
+    display: flex;
+    background-color: #ECE5C7;
+    margin-left: 200px;
+    margin-top: 70px;
+    box-shadow: #116A7B -1px -1px 20px ;
+}
+.left{
+    display: grid;
+    grid-template-rows: 1fr 1fr auto;
+    background-image: url(./images/colorful-dog-paint-by-numbers.jpg);
+    background-size: 640px 640px;
+    width: 560px;
+    height: 560px;
+    background-color: black;
+    border: #116A7B solid 2px;
+}
+.main{
+    color: #ECE5C7;
+    font-weight: 900;
+    font-size: 40pt;
+    font-family: "open sans",sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.footer{
+    color: #ECE5C7;
+    font-size: 19.8pt;
+    font-family: "open sans",sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.items{
+    list-style: none;
+    display: flex;
+    gap: 55px;
+}
+.right{
+    display: grid;
+    width: 560px;
+    height:560px;
+    border: #116A7B solid 2px;
+    padding-right: 30px;
+}
+.secondary{
+    font-size: 25.6pt;
+    font-family: sans-serif;
+    color: #116A7B;
+    display: flex;
+    margin-top: 32px;
+    margin-left: 200px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    height: 96px;
+}
+.input-items{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-left: 24px;    
+    font-family: sans-serif;
+    font-size: 22.64pt;
+    color: #116A7B;
+}
+input{
+    height: 57.92px;
+    width: 523.36px;
+    background-color: black;
+    opacity: 0.1;
+    color: #ECE5C7;
+    font-size: 22.64pt;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-radius: 8px;   
+    transition-property: opacity;
+    transition-duration: 0.9s; 
+}
+input:focus{
+    opacity: 0.4;
+}
+.opacity{
+    opacity: 0.4;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.button-hyperlink{
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+    gap: 38.4px;
+    font-family: sans-serif;
+    font-size: 16pt;
+    font-weight: 800;
+}
+button{
+    background-color: #C2DEDC;
+    border: #C2DEDC solid;
+    color: #ECE5C7;
+    font-size: 22.64pt;
+    margin-top: 40px;
+    border-radius: 8px;
+    transition-property: height, width, background-color, border;
+    transition-duration: 1s;
+}
+button:hover{
+    height: 48px;
+    width: 528px;
+    background-color: #116A7B;
+    border: none;
+}
+a{
+    text-decoration: none;
+    color: #ECE5C7;
+}
+.hyperlink{
+    color: #C2DEDC;
+    transition-property:color;
+    transition-duration: 0.9s;
+}
+.hyperlink:hover{
+    color: #116A7B;
+}
+@media (max-width:900px){
+    body{
+        height: 350px;
+        width: 700px;
+        display: flex;
+        background-color: #ECE5C7;
+        margin-top: 170px;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: #116A7B -1px -1px 20px ;
+    }
+    .left{
+        display: grid;
+        grid-template-rows: 1fr 1fr auto;
+        background-image: url(./images/colorful-dog-paint-by-numbers.jpg);
+        background-size: 400px 400px;
+        width: 350px;
+        height: 350px;
+        background-color: black;
+    }
+    .main{
+        color: #ECE5C7;
+        font-weight: 900;
+        font-size: 25pt;
+        font-family: "open sans",sans-serif;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .footer{
+        color: #ECE5C7;
+        font-size: 11pt;
+        font-family: "open sans",sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+    .items{
+        list-style: none;
+        display: flex;
+        gap: 55px;
+    }
+    .right{
+        display: grid;
+        width: 350px;
+        height:350px;
+    }
+    .secondary{
+        font-size: 16pt;
+        font-family: sans-serif;
+        color: #116A7B;
+        display: flex;
+        margin-top: 20px;
+        margin-left: 125px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        height: 60px;
+    }
+    .input-items{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+        padding-top: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        margin-left: 15px;    
+        font-family: sans-serif;
+        font-size: 14.5pt;
+        color: #116A7B;
+    }
+    input{
+        height: 36.2px;
+        width: 327.1px;
+        background-color: black;
+        opacity: 0.1;
+        color: #ECE5C7;
+        font-size: 14.5pt;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        border-radius: 8px;   
+        transition-property: opacity;
+        transition-duration: 0.9s; 
+    }
+    input:focus{
+        opacity: 0.4;
+    }
+    .opacity{
+        opacity: 0.4;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .button-hyperlink{
+        display: flex;
+        flex-direction: column;
+        margin-left: 15px;
+        gap: 24px;
+        font-family: sans-serif;
+        font-size: 10pt;
+        font-weight: 800;
+    }
+    button{
+        background-color: #C2DEDC;
+        border: #C2DEDC solid;
+        color: #ECE5C7;
+        height: 25px;
+        font-size: 14.5pt;
+        margin-top: 25px;
+        border-radius: 8px;
+        transition-property: height, width, background-color, border;
+        transition-duration: 1s;
+        margin-bottom: 0px;
+    }
+    button:hover{
+        height: 30px;
+        width: 330px;
+        background-color: #116A7B;
+        border: none;
+    }
+    a{
+        text-decoration: none;
+        color: #ECE5C7;
+    }
+    .hyperlink{
+        color: #C2DEDC;
+        transition-property:color;
+        transition-duration: 0.9s;
+        margin-top: 0px;
+    }
+    .hyperlink:hover{
+        color: #116A7B;
+    }
+}
+@media (max-width:600px){
+    body{
+        height: 100px;
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        background-color: #ECE5C7;
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: none;
+    }
+    .left{
+        display: grid;
+        grid-template-rows: 1fr 1fr auto;
+        background-image: url(./images/colorful-dog-paint-by-numbers.jpg);
+        background-size: 400px 400px;
+        width: 380px;
+        height: 350px;
+        background-color: black;
+    }
+    .main{
+        color: #ECE5C7;
+        font-weight: 900;
+        font-size: 25pt;
+        font-family: "open sans",sans-serif;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .footer{
+        color: #ECE5C7;
+        font-size: 11pt;
+        font-family: "open sans",sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+    .items{
+        list-style: none;
+        display: flex;
+        gap: 55px;
+    }
+    .right{
+        display: grid;
+        width: 350px;
+        height:350px;
+    }
+    .secondary{
+        font-size: 16pt;
+        font-family: sans-serif;
+        color: #116A7B;
+        display: flex;
+        margin-top: 20px;
+        margin-left: 125px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        height: 60px;
+    }
+    .input-items{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+        padding-top: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        margin-left: 15px;    
+        font-family: sans-serif;
+        font-size: 14.5pt;
+        color: #116A7B;
+    }
+    input{
+        height: 36.2px;
+        width: 327.1px;
+        background-color: black;
+        opacity: 0.1;
+        color: #ECE5C7;
+        font-size: 14.5pt;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        border-radius: 8px;   
+        transition-property: opacity;
+        transition-duration: 0.9s; 
+    }
+    input:focus{
+        opacity: 0.4;
+    }
+    .opacity{
+        opacity: 0.4;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .button-hyperlink{
+        display: flex;
+        flex-direction: column;
+        margin-left: 15px;
+        gap: 24px;
+        font-family: sans-serif;
+        font-size: 10pt;
+        font-weight: 800;
+    }
+    button{
+        background-color: #C2DEDC;
+        border: #C2DEDC solid;
+        color: #ECE5C7;
+        height: 25px;
+        font-size: 14.5pt;
+        margin-top: 25px;
+        border-radius: 8px;
+        transition-property: height, width, background-color, border;
+        transition-duration: 1s;
+        margin-bottom: 0px;
+    }
+    button:hover{
+        height: 30px;
+        width: 330px;
+        background-color: #116A7B;
+        border: none;
+    }
+    a{
+        text-decoration: none;
+        color: #ECE5C7;
+    }
+    .hyperlink{
+        color: #C2DEDC;
+        transition-property:color;
+        transition-duration: 0.9s;
+        margin-top: 0px;
+    }
+    .hyperlink:hover{
+        color: #116A7B;
+    }
+}
+
